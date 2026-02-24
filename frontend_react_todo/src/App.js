@@ -9,7 +9,7 @@ function App() {
   // Effect to apply theme to document element
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-  }, [theme]);
+  }, [theme]);list my 
 
   // PUBLIC_INTERFACE
   const toggleTheme = () => {
